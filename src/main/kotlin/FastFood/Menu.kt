@@ -1,5 +1,7 @@
 package FastFood
 
+import AutoAtendimento
+
 fun main() {
 
     val menu = Menu()
@@ -7,7 +9,7 @@ fun main() {
 }
 
 class Menu {
-    val executar = FastFood()
+    val executar = AutoAtendimento()
 
     fun menuInicial() {
 
